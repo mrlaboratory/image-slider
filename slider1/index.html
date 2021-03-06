@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Examples Easy Silder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <section>
+        <div class="slider slider_clock">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div class="next_button"></div>
+            <div class="prev_button"></div>
+        </div>
+        <script>
+            $(document).ready(function () {
+                 $('.slider_clock').EasySlides({
+                     'autoplay': true,
+                     'stepbystep': false,
+                     'show': 15
+                 })
+             });
+         </script>
+    </section>
+</body>
+
+</html>
