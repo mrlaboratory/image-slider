@@ -9,7 +9,6 @@ Fb: fb.com/mdmijanurrahaman.mr
 Phone No: 01854650673
 */
 (function ($) {
-
     $.fn.EasySlides = function (options) {
         var settings = $.extend({
             'autoplay': false,
